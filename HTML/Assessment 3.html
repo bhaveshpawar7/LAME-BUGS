@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl form Development</title>
+</head>
+<body>
+    <h2>This is Html Form </h2>
+    <form action="backend.php"></form>
+    <label for="Name">Name</label>
+    <div>
+        <input type="text" name="myName" id="Name">
+    </div>
+    <br>
+    <label for="Role">Role</label>
+    <div>
+      <input type="text" name="myRole" id="Role">
+    </div>
+    <br>
+    <label for="Email">Email</label>
+
+    <div>
+        <input type="email" name="myEmail" id="Email">
+    </div>
+    <br>
+    <label for="Date">Date</label>
+
+    <div>
+        <input type="date" name="myDate" id="Date">
+    </div>
+    <br>
+    <label for="Bonus">Bonus</label>
+
+    <div>
+        <input type="number" name="myBonus" id="Bonus">
+    </div>
+    <br>
+    <div>
+        Are you eligible ? :<input type="checkbox" name="myeligiblity" checked id="Are you eligible ? ">
+    </div>
+    <br>
+    <div>
+        Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+    </div>
+    <br>
+
+    <div>
+        Write About yourself : <br> <textarea name="myText" id="Write About yourself" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+        <option value="Indica">Indica</option>
+        <option value="Swift">Swift</option>
+        <option value="Lamborghini" selected>Lamborghini</option>
+    </select>
+    </div>
+    <br>
+
+    <div>
+        <!-- Add a submit button here -->
+        <input type="reset" value="Reset Now">
+
+    </div>
+</body>
+</html>
